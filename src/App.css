@@ -52,4 +52,12 @@
 .right-side {
   flex: 1;
   margin-left: 40px;
+  display: flex;
+
+}
+.right-side .grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
